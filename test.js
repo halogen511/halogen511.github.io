@@ -18,8 +18,8 @@ const ans = {
 const problems = document.querySelector('.problems');
 const btn = document.querySelector('.ans_button');
 const number = document.querySelector('.number');
-const true_audio = new Audio('./music/correct1.mp3');
-const wrong_audio = new Audio('./music/Quiz-Wrong_Buzzer02-1.mp3');
+const true_audio = new Audio('./correct1.mp3');
+const wrong_audio = new Audio('./Quiz-Wrong_Buzzer02-1.mp3');
 const sleep = waitTime => new Promise( resolve => setTimeout(resolve, waitTime) );
 let cnt = 1;
 
